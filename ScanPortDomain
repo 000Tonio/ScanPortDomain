@@ -22,8 +22,8 @@ COLOR.YELLOW          , Timer()                             , COLOR.END
 
 a = 0
 
-remoteServerIP = input("Entrer une ip ou un domain : ")
-#remoteServerIP = socket.gethostbyname(remoteServer)
+remoteServer = input("Entrer une ip ou un domain : ")
+remoteServerIP = socket.gethostbyname(remoteServer)
 
 
 print ("-" * 60)
